@@ -37,7 +37,7 @@ if (fs.existsSync(SESSION_FILE_PATH)) {
 }
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {
+    res.sendFile('indexwa.html', {
         root: __dirname
     });
 });
